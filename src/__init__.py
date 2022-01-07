@@ -1,4 +1,3 @@
-class Core:
+from .main import Core
 
-    def get(self, url):
-        return url
+__all__ = ["Core"]
